@@ -7,7 +7,11 @@ authors = [
     { name = "jamie", email = "jamie@theunlikelyengineer.com" }
 ]
 requires-python = ">=3.13"
-dependencies = []
+dependencies = [
+    "httpx>=0.28.1",
+    "pyarrow>=26.0.0",
+    "pydantic>=2.14.1",
+]
 
 [build-system]
 requires = ["uv_build>=0.11.32,<0.12.0"]
